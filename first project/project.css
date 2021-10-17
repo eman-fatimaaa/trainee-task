@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    color:white;
+    font-family:Arial,Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+    background-color:rgb(18,25,34);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:4px 15px 4px 10px;
+}
+.dflex{
+    display:flex;
+    align-items: center;
+}
+.item{
+
+    padding: 10px 10px;
+    
+}
+.item:hover{
+    border:1px solid white;
+    border-radius:2px;
+    margin:-1px;
+}
+.logo{
+    text-align:center;
+    margin: 1px;
+    margin-bottom:-5px;
+    padding:6px 8px 0 0;
+    height:42px;
+}
+ a{
+    display:flex;
+    text-align:center;
+    align-items:center;
+    text-decoration:none;
+} a:hover{
+    border: 1px solid white;
+    margin:-1px;
+    border-radius:3px;
+}
+a span{
+    font-size:14px;
+    margin-left:-10px;
+}
+p{
+    font-size:12px;
+    line-height:15px;
+}
+.item i{
+    padding:0 5px;
+}
+
+nav input{
+    width:680px;
+    padding:10px;
+    font-size:17px;
+    border:none;
+    outline:none;
+    color: #000;
+}
+nav button{
+    padding:10px 10px;
+    color:#000;
+    font-size:17px;
+    border:none;
+    border-radius:5px 0 0 5px;
+    cursor :pointer;
+}
+nav .all{
+    background:#ddd;
+    border-radius:5px 0 0 5px;
+}
+nav .search{
+    padding:10px 17px;
+    margin:-2px;
+    background:rgb(247,155,80);
+    border-radius:0 5px 5px 0;
+
+}
+.subnavigation{
+    background-color:#232f3e;
+    padding:6px 15px;
+}
+.submenu{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+ul li{
+    list-style:none;
+    font-weight:500;
+    padding:1px 5px;
+    font-size:14px;
+}
+nav .submenu i{
+    font-size:16px;
+}
+.li{
+    margin:-5px;
+    font-size:17px;
+}
+.bg{
+    position:relative;
+    padding:6px 6px;
+    margin:-5px 0;
+    margin-right:10px;
+    background-color:rgb(247,155,80)
+}
+.box:hover{
+    border: 1px solid rgb(247,155,80);
+    box-shadow:0 0 3px 0 rgb(247,155,80);
+    border-radius:7px;
+}
+
+.body_container_parent1_Flexbox{
+    display:flex;
+    border-right:2px solid #ddd;
+    background:white;
+    width:20%;
+    margin-top:10px;
+    color:black;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    margin-left:1%;
+}
+.body_container_parent2_Flexbox{
+    display:flex;
+    background:white;
+    width:80%;
+    color:black;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-wrap:wrap;
+}.box2{
+    
+    margin:10px;
+    width:245px;
+    height:450px;
+    border-bottom:2px solid #ddd;
+   
+   
+    
+}
+.Left_box{
+   
+    border:2px solid white;
+    margin:10px;
+    width:240px;
+    height:220px;
+}
+   .shrink{
+       flex-shrink:3;
+   }
+   .content{
+    width:100%;
+    border:0.2px solid grey;
+    padding:0.7%;
+}
+.body_container_grandParent_Flexbox {
+    display: flex;
+    border: 1px solid gray;
+    background: white;
+    width: 100%;
+
+    color: black;
+    justify-content: space-between;
+}
+p{
+    color:black;
+    font-size:14px;
+}
+span{
+    color:blue;
+}
+
+    .body_container_child_Flexbox ul li{
+        text-decoration:none;
+        list-style-type:none;
+        color:black;
+        
+    }
+    .body_container_child_Flexbox ul a{
+        text-decoration:none;
+        color:black;
+    }
+    .body_container_child_Flexbox  li a:hover{
+        color:orange;
+    }
+    label:hover{
+        color:orange;
+    }
+    .stars ul{
+        display:flex;
+    }
+    .stars i{
+        color:orange;
+
+    }
+    label{
+        color:black;
+    }
+    .sidebar{
+        color:black;
+    }
+    .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer1 {
+    display: flex;
+    background: #2e4663;
+    color: white;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2 {
+    background: #232F3E;
+    height: 80vh;
+}
+
+.mainfooter2 {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.mainfooter22 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items:baseline;
+  
+}
+
+.footer3 {
+    display: flex;
+    background: rgba(3, 3, 22, 0.95); 
+    color: white;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+
+
+
+
+
